@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-// import Founder from "./Founder";
-// import Menu from "./Menu";
-import "../styles/home.scss";
+import Founder from "./Founder.jsx";
+import Menu from "./Menu";
+import "../../styles/home.scss";
 
 const Home = () => {
   const options = {
@@ -49,9 +49,9 @@ const Home = () => {
         </motion.a>
       </section>
 
-      {/* <Founder /> */}
+      <Founder />
 
-      {/* <Menu /> */}
+      <Menu />
     </>
   );
 };
