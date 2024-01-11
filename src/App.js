@@ -3,9 +3,11 @@ import "./styles/app.scss";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer"
 import Home from "./components/home/Home";
-import "./styles/home.scss";
+import Contact from "./components/contact/Contact"
 import "./styles/founder.scss";
 import "./styles/menu.scss";
+import "./styles/home.scss";
+import "./styles/contact.scss";
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+
         
       </Routes>
       <Footer/>
